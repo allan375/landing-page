@@ -29,7 +29,7 @@ export default function Home() {
         <div className='flex pt-8 pb-12 px-[24px] flex-col items-center justify-center z-5 relative'>
           <img src='/images/apostila.webp' alt="" width={235} height={235} />
 
-          <h1 className="text-[22px] text-center font-[600] mt-1">Garanta sua aprovação no INSS para o cargo de Técnico do Seguro Social</h1>
+          <h1 className="text-[22px] text-center font-[600] mt-1">MODIFIED Garanta sua aprovação no INSS para o cargo de Técnico do Seguro Social</h1>
 
           <p className="text-[18px] font-[400] text-center mt-3 mb-6">Prepare-se para o concurso do INSS através do melhor material de estudos disponível na internet! Agora você pode estudar de maneira eficiente e direcionada para as provas, com foco na sua aprovação!</p>
 
