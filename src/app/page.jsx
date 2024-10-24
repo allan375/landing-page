@@ -36,30 +36,32 @@ export default function Home() {
         </div>
       </main>
 
-      <section className="bg-white p-6">
-        <div className="mb-7 flex flex-col gap-3 items-center text-black text-center">
-          <video src="/images/video.mp4" className="rounded-md" type="video/mp4" controls/>
-          <h2 className="text-[21px] font-[600]">Estude através de um material criado por especialistas</h2>
-          <p className="text-[16px]">Veja como nossa apostila digital pode te ajudar a conquistar seu cargo como Técnico do Seguro Social no INSS, mesmo que você esteja começando agora nos estudos!</p>
-        </div>
-
-        <div id="box-container" className="flex flex-col gap-6">
-          <div className="p-8 flex flex-col items-center justify-center text-center text-black border border-[#D3E7FF] border-2  rounded-md">
-            <svg aria-hidden="true" className="w-10 text-blue-500 fill-current" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M448 360V24c0-13.3-10.7-24-24-24H96C43 0 0 43 0 96v320c0 53 43 96 96 96h328c13.3 0 24-10.7 24-24v-16c0-7.5-3.5-14.3-8.9-18.7-4.2-15.4-4.2-59.3 0-74.7 5.4-4.3 8.9-11.1 8.9-18.6zM128 134c0-3.3 2.7-6 6-6h212c3.3 0 6 2.7 6 6v20c0 3.3-2.7 6-6 6H134c-3.3 0-6-2.7-6-6v-20zm0 64c0-3.3 2.7-6 6-6h212c3.3 0 6 2.7 6 6v20c0 3.3-2.7 6-6 6H134c-3.3 0-6-2.7-6-6v-20zm253.4 250H96c-17.7 0-32-14.3-32-32 0-17.6 14.4-32 32-32h285.4c-1.9 17.1-1.9 46.9 0 64z"></path></svg>
-            <h3 className="text-[19px] mb-1 mt-3 font-[500]">PDF com 1.500 questões</h3>
-            <p className="text-[15px]">Receba um PDF completo com questões gabaritadas pela CEBRASPE, ideal para você se preparar e se destacar no concurso. Pratique onde e quando quiser!</p>
+      <section className="bg-white p-6 flex flex-col items-center justify-center">
+        <div className="max-w-[1024px]">
+          <div className="mb-7 flex flex-col gap-3 items-center text-black text-center">
+            <video src="/images/video.mp4" className="rounded-md" type="video/mp4" controls/>
+            <h2 className="text-[21px] font-[600]">Estude através de um material criado por especialistas</h2>
+            <p className="text-[16px]">Veja como nossa apostila digital pode te ajudar a conquistar seu cargo como Técnico do Seguro Social no INSS, mesmo que você esteja começando agora nos estudos!</p>
           </div>
 
-          <div className="p-8 flex flex-col items-center justify-center text-center text-black border border-[#D3E7FF] border-2  rounded-md">
-            <svg aria-hidden="true" className="w-10 text-blue-500 fill-current" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M448 360V24c0-13.3-10.7-24-24-24H96C43 0 0 43 0 96v320c0 53 43 96 96 96h328c13.3 0 24-10.7 24-24v-16c0-7.5-3.5-14.3-8.9-18.7-4.2-15.4-4.2-59.3 0-74.7 5.4-4.3 8.9-11.1 8.9-18.6zM128 134c0-3.3 2.7-6 6-6h212c3.3 0 6 2.7 6 6v20c0 3.3-2.7 6-6 6H134c-3.3 0-6-2.7-6-6v-20zm0 64c0-3.3 2.7-6 6-6h212c3.3 0 6 2.7 6 6v20c0 3.3-2.7 6-6 6H134c-3.3 0-6-2.7-6-6v-20zm253.4 250H96c-17.7 0-32-14.3-32-32 0-17.6 14.4-32 32-32h285.4c-1.9 17.1-1.9 46.9 0 64z"></path></svg>
-            <h3 className="text-[19px] mb-1 mt-3 font-[500]">PDF com 1.500 questões</h3>
-            <p className="text-[15px]">Receba um PDF completo com questões gabaritadas pela CEBRASPE, ideal para você se preparar e se destacar no concurso. Pratique onde e quando quiser!</p>
-          </div>
+          <div id="box-container" className="flex flex-col gap-6">
+            <div className="p-8 flex flex-col items-center justify-center text-center text-black border border-[#D3E7FF] border-2  rounded-md">
+              <svg aria-hidden="true" className="w-10 text-blue-500 fill-current" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M448 360V24c0-13.3-10.7-24-24-24H96C43 0 0 43 0 96v320c0 53 43 96 96 96h328c13.3 0 24-10.7 24-24v-16c0-7.5-3.5-14.3-8.9-18.7-4.2-15.4-4.2-59.3 0-74.7 5.4-4.3 8.9-11.1 8.9-18.6zM128 134c0-3.3 2.7-6 6-6h212c3.3 0 6 2.7 6 6v20c0 3.3-2.7 6-6 6H134c-3.3 0-6-2.7-6-6v-20zm0 64c0-3.3 2.7-6 6-6h212c3.3 0 6 2.7 6 6v20c0 3.3-2.7 6-6 6H134c-3.3 0-6-2.7-6-6v-20zm253.4 250H96c-17.7 0-32-14.3-32-32 0-17.6 14.4-32 32-32h285.4c-1.9 17.1-1.9 46.9 0 64z"></path></svg>
+              <h3 className="text-[19px] mb-1 mt-3 font-[500]">PDF com 1.500 questões</h3>
+              <p className="text-[15px]">Receba um PDF completo com questões gabaritadas pela CEBRASPE, ideal para você se preparar e se destacar no concurso. Pratique onde e quando quiser!</p>
+            </div>
 
-          <div className="p-8 flex flex-col items-center justify-center text-center text-black border border-[#D3E7FF] border-2  rounded-md">
-            <svg aria-hidden="true" className="w-10 text-blue-500 fill-current" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M448 360V24c0-13.3-10.7-24-24-24H96C43 0 0 43 0 96v320c0 53 43 96 96 96h328c13.3 0 24-10.7 24-24v-16c0-7.5-3.5-14.3-8.9-18.7-4.2-15.4-4.2-59.3 0-74.7 5.4-4.3 8.9-11.1 8.9-18.6zM128 134c0-3.3 2.7-6 6-6h212c3.3 0 6 2.7 6 6v20c0 3.3-2.7 6-6 6H134c-3.3 0-6-2.7-6-6v-20zm0 64c0-3.3 2.7-6 6-6h212c3.3 0 6 2.7 6 6v20c0 3.3-2.7 6-6 6H134c-3.3 0-6-2.7-6-6v-20zm253.4 250H96c-17.7 0-32-14.3-32-32 0-17.6 14.4-32 32-32h285.4c-1.9 17.1-1.9 46.9 0 64z"></path></svg>
-            <h3 className="text-[19px] mb-1 mt-3 font-[500]">PDF com 1.500 questões</h3>
-            <p className="text-[15px]">Receba um PDF completo com questões gabaritadas pela CEBRASPE, ideal para você se preparar e se destacar no concurso. Pratique onde e quando quiser!</p>
+            <div className="p-8 flex flex-col items-center justify-center text-center text-black border border-[#D3E7FF] border-2  rounded-md">
+              <svg aria-hidden="true" className="w-10 text-blue-500 fill-current" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M448 360V24c0-13.3-10.7-24-24-24H96C43 0 0 43 0 96v320c0 53 43 96 96 96h328c13.3 0 24-10.7 24-24v-16c0-7.5-3.5-14.3-8.9-18.7-4.2-15.4-4.2-59.3 0-74.7 5.4-4.3 8.9-11.1 8.9-18.6zM128 134c0-3.3 2.7-6 6-6h212c3.3 0 6 2.7 6 6v20c0 3.3-2.7 6-6 6H134c-3.3 0-6-2.7-6-6v-20zm0 64c0-3.3 2.7-6 6-6h212c3.3 0 6 2.7 6 6v20c0 3.3-2.7 6-6 6H134c-3.3 0-6-2.7-6-6v-20zm253.4 250H96c-17.7 0-32-14.3-32-32 0-17.6 14.4-32 32-32h285.4c-1.9 17.1-1.9 46.9 0 64z"></path></svg>
+              <h3 className="text-[19px] mb-1 mt-3 font-[500]">PDF com 1.500 questões</h3>
+              <p className="text-[15px]">Receba um PDF completo com questões gabaritadas pela CEBRASPE, ideal para você se preparar e se destacar no concurso. Pratique onde e quando quiser!</p>
+            </div>
+
+            <div className="p-8 flex flex-col items-center justify-center text-center text-black border border-[#D3E7FF] border-2  rounded-md">
+              <svg aria-hidden="true" className="w-10 text-blue-500 fill-current" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M448 360V24c0-13.3-10.7-24-24-24H96C43 0 0 43 0 96v320c0 53 43 96 96 96h328c13.3 0 24-10.7 24-24v-16c0-7.5-3.5-14.3-8.9-18.7-4.2-15.4-4.2-59.3 0-74.7 5.4-4.3 8.9-11.1 8.9-18.6zM128 134c0-3.3 2.7-6 6-6h212c3.3 0 6 2.7 6 6v20c0 3.3-2.7 6-6 6H134c-3.3 0-6-2.7-6-6v-20zm0 64c0-3.3 2.7-6 6-6h212c3.3 0 6 2.7 6 6v20c0 3.3-2.7 6-6 6H134c-3.3 0-6-2.7-6-6v-20zm253.4 250H96c-17.7 0-32-14.3-32-32 0-17.6 14.4-32 32-32h285.4c-1.9 17.1-1.9 46.9 0 64z"></path></svg>
+              <h3 className="text-[19px] mb-1 mt-3 font-[500]">PDF com 1.500 questões</h3>
+              <p className="text-[15px]">Receba um PDF completo com questões gabaritadas pela CEBRASPE, ideal para você se preparar e se destacar no concurso. Pratique onde e quando quiser!</p>
+            </div>
           </div>
         </div>
       </section>
